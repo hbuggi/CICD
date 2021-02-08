@@ -3,7 +3,7 @@ function sayhello(name){
     if (!name){
         return `hello ${defaultname}`
     }
-    return `hello ${name}`
+    return `hello world`
 }
 
 module.exports.sayhello = sayhello;
