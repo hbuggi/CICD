@@ -1,9 +1,9 @@
 function sayhello(name){
-    let deaultname = 'world';
+    let defaultname = 'world';
     if (!name){
-        return `hello ${deaultname}`
+        return `hello ${defaultname}`
     }
-    return `hello ${name}`
+    return `hello world`
 }
 
 module.exports.sayhello = sayhello;
